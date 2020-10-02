@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1046671404363-o1j92fbra9ib4p3upeolktiimf3ov9ri.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1046671404363-o1j92fbra9ib4p3upeolktiimf3ov9ri</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDmpB2RrZn7W9S5i3zg9WfLWk6kY_319tM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1046671404363</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.garimabothra.IvyHacks</string>
+	<key>PROJECT_ID</key>
+	<string>ivyhacks-67699</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ivyhacks-67699.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1046671404363:ios:0835cd78c8d2890c060cce</string>
+	<key>DATABASE_URL</key>
+	<string>https://ivyhacks-67699.firebaseio.com</string>
+</dict>
+</plist>

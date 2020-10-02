@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C46932AC28D9A2501AE9884 /* Pods_IvyHacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BD0DD428A77D8110A8E1A5 /* Pods_IvyHacks.framework */; };
+		82ABF8D371F55F69C7561379 /* Pods_IvyHacks_IvyHacksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFF4EF5069D2AE3D6F4F0C3 /* Pods_IvyHacks_IvyHacksUITests.framework */; };
 		8628CB102527108C00C45089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628CB0F2527108C00C45089 /* AppDelegate.swift */; };
 		8628CB122527108C00C45089 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628CB112527108C00C45089 /* SceneDelegate.swift */; };
 		8628CB142527108C00C45089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628CB132527108C00C45089 /* ContentView.swift */; };
@@ -15,6 +17,14 @@
 		8628CB1C2527109700C45089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8628CB1A2527109700C45089 /* LaunchScreen.storyboard */; };
 		8628CB272527109700C45089 /* IvyHacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628CB262527109700C45089 /* IvyHacksTests.swift */; };
 		8628CB322527109700C45089 /* IvyHacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628CB312527109700C45089 /* IvyHacksUITests.swift */; };
+		8628CB432527140500C45089 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628CB422527140500C45089 /* LoginView.swift */; };
+		8628CB48252716DF00C45089 /* Color + .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628CB47252716DF00C45089 /* Color + .swift */; };
+		86A296DD252725CD00F2AF73 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A296DC252725CD00F2AF73 /* CreateAccountView.swift */; };
+		86A296E225272B4C00F2AF73 /* AccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A296E125272B4C00F2AF73 /* AccountDetailsView.swift */; };
+		86A296EA2527313600F2AF73 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86A296E92527313600F2AF73 /* GoogleService-Info.plist */; };
+		86A29701252737A500F2AF73 /* FirebaseNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A29700252737A500F2AF73 /* FirebaseNetworking.swift */; };
+		86A297092527561D00F2AF73 /* StoreLocatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A297082527561D00F2AF73 /* StoreLocatorView.swift */; };
+		892C80BE13D6B9BF80D1A929 /* Pods_IvyHacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DF79FB3A1E653546991E0B /* Pods_IvyHacksTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02CAD518139D2ECC5845FC8F /* Pods-IvyHacksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvyHacksTests.release.xcconfig"; path = "Target Support Files/Pods-IvyHacksTests/Pods-IvyHacksTests.release.xcconfig"; sourceTree = "<group>"; };
+		200F739B748BF8AC4079DF8F /* Pods-IvyHacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvyHacks.release.xcconfig"; path = "Target Support Files/Pods-IvyHacks/Pods-IvyHacks.release.xcconfig"; sourceTree = "<group>"; };
+		3BFF4EF5069D2AE3D6F4F0C3 /* Pods_IvyHacks_IvyHacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IvyHacks_IvyHacksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8628CB0C2527108C00C45089 /* IvyHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IvyHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8628CB0F2527108C00C45089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8628CB112527108C00C45089 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,19 @@
 		8628CB2D2527109700C45089 /* IvyHacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IvyHacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8628CB312527109700C45089 /* IvyHacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IvyHacksUITests.swift; sourceTree = "<group>"; };
 		8628CB332527109700C45089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8628CB422527140500C45089 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8628CB47252716DF00C45089 /* Color + .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + .swift"; sourceTree = "<group>"; };
+		86A296DC252725CD00F2AF73 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		86A296E125272B4C00F2AF73 /* AccountDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsView.swift; sourceTree = "<group>"; };
+		86A296E92527313600F2AF73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		86A29700252737A500F2AF73 /* FirebaseNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseNetworking.swift; sourceTree = "<group>"; };
+		86A297082527561D00F2AF73 /* StoreLocatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLocatorView.swift; sourceTree = "<group>"; };
+		8D307CC8B332168B370AA35E /* Pods-IvyHacks-IvyHacksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvyHacks-IvyHacksUITests.debug.xcconfig"; path = "Target Support Files/Pods-IvyHacks-IvyHacksUITests/Pods-IvyHacks-IvyHacksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5BD0DD428A77D8110A8E1A5 /* Pods_IvyHacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IvyHacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01BA54DD865BEDD07010379 /* Pods-IvyHacks-IvyHacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvyHacks-IvyHacksUITests.release.xcconfig"; path = "Target Support Files/Pods-IvyHacks-IvyHacksUITests/Pods-IvyHacks-IvyHacksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C3DF79FB3A1E653546991E0B /* Pods_IvyHacksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IvyHacksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD798F35019652020F525C5 /* Pods-IvyHacksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvyHacksTests.debug.xcconfig"; path = "Target Support Files/Pods-IvyHacksTests/Pods-IvyHacksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD9FC3F78B8504C5B46F88C8 /* Pods-IvyHacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvyHacks.debug.xcconfig"; path = "Target Support Files/Pods-IvyHacks/Pods-IvyHacks.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C46932AC28D9A2501AE9884 /* Pods_IvyHacks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892C80BE13D6B9BF80D1A929 /* Pods_IvyHacksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82ABF8D371F55F69C7561379 /* Pods_IvyHacks_IvyHacksUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C09BF2A5D155C7F73B621C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FC3F78B8504C5B46F88C8 /* Pods-IvyHacks.debug.xcconfig */,
+				200F739B748BF8AC4079DF8F /* Pods-IvyHacks.release.xcconfig */,
+				8D307CC8B332168B370AA35E /* Pods-IvyHacks-IvyHacksUITests.debug.xcconfig */,
+				C01BA54DD865BEDD07010379 /* Pods-IvyHacks-IvyHacksUITests.release.xcconfig */,
+				DAD798F35019652020F525C5 /* Pods-IvyHacksTests.debug.xcconfig */,
+				02CAD518139D2ECC5845FC8F /* Pods-IvyHacksTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		715F5B67645114157296E1AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BD0DD428A77D8110A8E1A5 /* Pods_IvyHacks.framework */,
+				3BFF4EF5069D2AE3D6F4F0C3 /* Pods_IvyHacks_IvyHacksUITests.framework */,
+				C3DF79FB3A1E653546991E0B /* Pods_IvyHacksTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8628CB032527108C00C45089 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				8628CB252527109700C45089 /* IvyHacksTests */,
 				8628CB302527109700C45089 /* IvyHacksUITests */,
 				8628CB0D2527108C00C45089 /* Products */,
+				2C09BF2A5D155C7F73B621C7 /* Pods */,
+				715F5B67645114157296E1AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,9 +156,16 @@
 				8628CB0F2527108C00C45089 /* AppDelegate.swift */,
 				8628CB112527108C00C45089 /* SceneDelegate.swift */,
 				8628CB132527108C00C45089 /* ContentView.swift */,
+				8628CB422527140500C45089 /* LoginView.swift */,
+				86A297082527561D00F2AF73 /* StoreLocatorView.swift */,
+				86A296DC252725CD00F2AF73 /* CreateAccountView.swift */,
+				86A296E125272B4C00F2AF73 /* AccountDetailsView.swift */,
+				86A29700252737A500F2AF73 /* FirebaseNetworking.swift */,
+				8628CB47252716DF00C45089 /* Color + .swift */,
 				8628CB152527109700C45089 /* Assets.xcassets */,
 				8628CB1A2527109700C45089 /* LaunchScreen.storyboard */,
 				8628CB1D2527109700C45089 /* Info.plist */,
+				86A296E92527313600F2AF73 /* GoogleService-Info.plist */,
 				8628CB172527109700C45089 /* Preview Content */,
 			);
 			path = IvyHacks;
@@ -143,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8628CB362527109700C45089 /* Build configuration list for PBXNativeTarget "IvyHacks" */;
 			buildPhases = (
+				77F629867A37C1F11D68459A /* [CP] Check Pods Manifest.lock */,
 				8628CB082527108C00C45089 /* Sources */,
 				8628CB092527108C00C45089 /* Frameworks */,
 				8628CB0A2527108C00C45089 /* Resources */,
+				DC70384464053F12365AEE83 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8628CB392527109700C45089 /* Build configuration list for PBXNativeTarget "IvyHacksTests" */;
 			buildPhases = (
+				07E0CB606C452047D7092ED6 /* [CP] Check Pods Manifest.lock */,
 				8628CB1E2527109700C45089 /* Sources */,
 				8628CB1F2527109700C45089 /* Frameworks */,
 				8628CB202527109700C45089 /* Resources */,
@@ -178,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8628CB3C2527109700C45089 /* Build configuration list for PBXNativeTarget "IvyHacksUITests" */;
 			buildPhases = (
+				8F4FFDA76E7C67D78A6F848F /* [CP] Check Pods Manifest.lock */,
 				8628CB292527109700C45089 /* Sources */,
 				8628CB2A2527109700C45089 /* Frameworks */,
 				8628CB2B2527109700C45089 /* Resources */,
+				B87E70208EF19B7D7A6E84D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8628CB1C2527109700C45089 /* LaunchScreen.storyboard in Resources */,
+				86A296EA2527313600F2AF73 /* GoogleService-Info.plist in Resources */,
 				8628CB192527109700C45089 /* Preview Assets.xcassets in Resources */,
 				8628CB162527109700C45089 /* Assets.xcassets in Resources */,
 			);
@@ -261,14 +328,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07E0CB606C452047D7092ED6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IvyHacksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77F629867A37C1F11D68459A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IvyHacks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F4FFDA76E7C67D78A6F848F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IvyHacks-IvyHacksUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B87E70208EF19B7D7A6E84D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IvyHacks-IvyHacksUITests/Pods-IvyHacks-IvyHacksUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IvyHacks-IvyHacksUITests/Pods-IvyHacks-IvyHacksUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IvyHacks-IvyHacksUITests/Pods-IvyHacks-IvyHacksUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC70384464053F12365AEE83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IvyHacks/Pods-IvyHacks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IvyHacks/Pods-IvyHacks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IvyHacks/Pods-IvyHacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8628CB082527108C00C45089 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A296DD252725CD00F2AF73 /* CreateAccountView.swift in Sources */,
 				8628CB102527108C00C45089 /* AppDelegate.swift in Sources */,
 				8628CB122527108C00C45089 /* SceneDelegate.swift in Sources */,
+				86A297092527561D00F2AF73 /* StoreLocatorView.swift in Sources */,
+				8628CB432527140500C45089 /* LoginView.swift in Sources */,
+				86A29701252737A500F2AF73 /* FirebaseNetworking.swift in Sources */,
+				8628CB48252716DF00C45089 /* Color + .swift in Sources */,
 				8628CB142527108C00C45089 /* ContentView.swift in Sources */,
+				86A296E225272B4C00F2AF73 /* AccountDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +609,7 @@
 		};
 		8628CB372527109700C45089 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9FC3F78B8504C5B46F88C8 /* Pods-IvyHacks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +631,7 @@
 		};
 		8628CB382527109700C45089 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200F739B748BF8AC4079DF8F /* Pods-IvyHacks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +653,7 @@
 		};
 		8628CB3A2527109700C45089 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD798F35019652020F525C5 /* Pods-IvyHacksTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +676,7 @@
 		};
 		8628CB3B2527109700C45089 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02CAD518139D2ECC5845FC8F /* Pods-IvyHacksTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +699,7 @@
 		};
 		8628CB3D2527109700C45089 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D307CC8B332168B370AA35E /* Pods-IvyHacks-IvyHacksUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +720,7 @@
 		};
 		8628CB3E2527109700C45089 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01BA54DD865BEDD07010379 /* Pods-IvyHacks-IvyHacksUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
